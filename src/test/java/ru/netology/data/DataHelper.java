@@ -1,2 +1,4 @@
-package ru.netology;public class DataHelper {
+package ru.netology.data;
+
+public class DataHelper {
 }
