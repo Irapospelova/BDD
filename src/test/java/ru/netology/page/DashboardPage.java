@@ -30,12 +30,12 @@ public class DashboardPage {
 
     public int getFirstCardBalance(DataHelper.CardInfo cardInfo) {
 
-        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(01))).getText();
+        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(0001))).getText();
         return extractBalance(text);
     }
 
    public int getSecondCardBalance(DataHelper.CardInfo cardInfo) {
-        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(02))).getText();
+        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(0002))).getText();
         return extractBalance(text);
     }
 
