@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4538c48c-7508-41d5-a287-032150b10f50" name="Changes" comment="6 commit">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ru/netology/page/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ru/netology/page/DashboardPage.java" afterDir="false" />
-    </list>
+    <list default="true" id="4538c48c-7508-41d5-a287-032150b10f50" name="Changes" comment="1 st test passed" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +49,7 @@
       <recent name="C:\Users\irapo\BDD\artifacts" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TransferTest.shouldTransferFromFirstToSecond">
+  <component name="RunManager" selected="Gradle.TransferTest">
     <configuration name="TransferTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -124,8 +121,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TransferTest.shouldTransferFromFirstToSecond" />
         <item itemvalue="Gradle.TransferTest" />
+        <item itemvalue="Gradle.TransferTest.shouldTransferFromFirstToSecond" />
         <item itemvalue="Gradle.TransferTest.transferShouldFail" />
       </list>
     </recent_temporary>
@@ -160,13 +157,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688048762632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1 st test passed">
+      <created>1688407233176</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688407233177</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1 st test passed">
+      <created>1688407257525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688407257525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2 nd commit" />
     <MESSAGE value="no success commit" />
     <MESSAGE value="6 commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="6 commit" />
+    <MESSAGE value="1 st test passed" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 st test passed" />
   </component>
 </project>
