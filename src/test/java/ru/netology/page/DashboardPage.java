@@ -10,8 +10,8 @@ import static com.codeborne.selenide.Selenide.$$;
 
 public class DashboardPage {
 
-    private final String balanceBegining = "баланс";
-    private final String balanceEnding = "р.";
+    private final String balanceBegining = "баланс: ";
+    private final String balanceEnding = " р.";
     private final SelenideElement heading = $("[data-test-id=dashboard]");
     private final ElementsCollection cards = $$(".list__item div");
 
@@ -30,17 +30,17 @@ public class DashboardPage {
 
     public int getFirstCardBalance(DataHelper.CardInfo cardInfo) {
 
-        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(0001))).getText();
+        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(16))).getText();
         return extractBalance(text);
     }
 
    public int getSecondCardBalance(DataHelper.CardInfo cardInfo) {
-        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(0002))).getText();
+        var text = cards.findBy(Condition.text(cardInfo.getCardNumber().substring(16))).getText();
         return extractBalance(text);
     }
 
     public TransferPage selectCardToTransfer(DataHelper.CardInfo cardInfo) {
-        cards.findBy(Condition.attribute("data-test-id=action-deposit", cardInfo.getTestId()))
+        cards.findBy(Condition.attribute("data-test-id", cardInfo.getTestId()))
                 .$("button").click();
         return new TransferPage();
     }
